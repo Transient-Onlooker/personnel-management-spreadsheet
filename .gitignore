@@ -125,3 +125,17 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Google Cloud credentials
+gen-lang-client-*.json
+credentials*.json
+client_secret*.json
+service-account*.json
+
+# Other local secrets and private keys
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
